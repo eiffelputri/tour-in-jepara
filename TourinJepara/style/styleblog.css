@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font: 16px/28px arial, sans-serif;
+    color: darkslategrey;
+    background-color: darkslategrey;
+}
+
+.container{
+    width: 700px;
+    margin: 65px auto;
+    background-color: rgb(230, 250, 243);
+    border-radius: 10px;
+}
+
+.header{
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header ul{
+    margin: 0x;
+    padding: 0px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.header li{
+    display: inline-block;
+}
+
+.header a{
+    text-decoration: none;
+    padding: 10px;
+    color: darkslategrey;
+    padding-right: 10px;
+}
+
+.header a:hover{
+    background-color: rgb(193, 255, 238);
+    color: rgb(0, 158, 74);
+}
+
+.garis {
+    border-bottom: 5px dashed darkslategrey;
+    padding-top: 20px;
+}
+
+.content{
+    padding: 20px;
+}
+
+.content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+p{
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.footer{
+    background-color: rgb(176, 222, 199);
+    padding: 3px;
+}
+
+.copy{
+    margin-top: 20px;
+    color: darkslategrey;
+    text-align: center;
+    font-size: 12px;
+}
